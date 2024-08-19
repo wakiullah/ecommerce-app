@@ -1,0 +1,18 @@
+.description_box {
+  margin-top: 60px;
+}
+.description_tittle p {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+
+.description_text {
+  padding: 30px;
+  border: 1px solid #ccc;
+}
+
+.active{
+    background: #ccc;
+}

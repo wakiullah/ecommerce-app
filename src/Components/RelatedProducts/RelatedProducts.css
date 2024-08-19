@@ -1,0 +1,10 @@
+.relatedSection {
+  margin-top: 50px;
+}
+.related_prducts {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 50px;
+}

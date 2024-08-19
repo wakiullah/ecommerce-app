@@ -1,0 +1,49 @@
+.login_page {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(255, 209, 216);
+}
+
+.login_information {
+  width: 35%;
+  text-align: center;
+  background: #fff;
+  margin: auto;
+  padding: 40px;
+  display: block;
+}
+
+.login_information h2 {
+  text-align: left;
+  color: black;
+}
+
+.login_information p {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.login_information input {
+  width: 100%;
+  padding-left: 15px;
+  height: 50px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.login_information button {
+  width: 50%;
+  text-align: center;
+  height: 40px;
+  margin-top: 30px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 10px;
+  background-color: tomato;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
