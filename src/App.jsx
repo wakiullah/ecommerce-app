@@ -15,9 +15,7 @@ import ProtectedRoutes from './Components/ProctedRoutes/ProtectedRoutes';
 import Profile from './Pages/Profile';
 
 function App() {
-  const email = window.localStorage.getItem('email')
-  const isLoggedIn = window.localStorage.getItem('isLoggedIn')
-  const name = window.localStorage.getItem('name')
+
 
   return (
     <BrowserRouter>
@@ -27,15 +25,12 @@ function App() {
         <Route path='/cart' element={<Cart />} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
-
-        <Route element={<ProtectedRoutes />}>
-          <Route path='/women' element={<ShopCategory banner={WomenBanner} category="women" />} />
-          <Route path='/profile' element={<Profile />} />
-          <Route path='/men' element={<ShopCategory banner={MenBanner} category="men" />} />
-          <Route path='/kids' element={<ShopCategory banner={KidsBanner} category='kid' />} />
-          <Route path='/product' element={<Product />}>
-            <Route path=':productId' element={<Product />} />
-          </Route>
+        <Route path='/women' element={<ShopCategory banner={WomenBanner} category="women" />} />
+        <Route path='/profile' element={<Profile />} />
+        <Route path='/men' element={<ShopCategory banner={MenBanner} category="men" />} />
+        <Route path='/kids' element={<ShopCategory banner={KidsBanner} category='kid' />} />
+        <Route path='/product' element={<Product />}>
+          <Route path=':productId' element={<Product />} />
         </Route>
 
 
